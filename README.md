@@ -1,7 +1,30 @@
-I want to write a plugin for vscode:
+# Line Number Cursor Plugin
 
-It hook the line number for some actions:
+Enhance your coding workflow with intuitive line number interactions. This VS Code extension customizes cursor behavior when clicking on line numbers, making navigation and selection faster and more efficient.
 
-1. first click on line number , place the cursor on the first of the line
-2. double click on line number , select whole line text
-3. triple click on line number , move cursor to the end of the line
+## Features
+
+Interact directly with the gutter (line numbers) to perform common cursor actions:
+
+*   **Single Click**: Places the cursor at the **start** of the line (first non-whitespace character).
+*   **Double Click**: Moves the cursor to the **end** of the line.
+*   **Triple Click**: Selects the **entire line** without last line break.
+*   **Quadruple Click**: Selects the **entire line** with last line break.
+
+## Requirements
+
+VS Code version 1.90.0 or higher.
+
+## Extension Settings
+
+Currently, this extension does not contribute any settings.
+
+## Known Issues
+
+None.
+
+## Release Notes
+
+### 0.0.1
+
+Initial release of Line Number Cursor Plugin.
