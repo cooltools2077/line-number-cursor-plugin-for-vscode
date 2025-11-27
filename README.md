@@ -28,3 +28,10 @@ None.
 ### 0.0.1
 
 Initial release of Line Number Cursor Plugin.
+
+
+## SELF BUILD GUIDES
+
+1. Package the Extension: Use the following command in your terminal: npx vsce package
+
+2. Install the VSIX File in VS Code: In VS Code, go to the Extensions view, click the More Actions (...) menu, and select Install from VSIX... Choose the .vsix file you just built.
